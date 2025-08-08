@@ -32,7 +32,7 @@ permissions:
 jobs:
   triage-issue:
     if: >
-      github.repository == 'google-gemini/gemini-cli' &&
+      github.repository == 'lociko/gemini-cli' &&
       (github.event_name == 'issues' ||
        github.event_name == 'workflow_dispatch' ||
        (github.event_name == 'issue_comment' &&
